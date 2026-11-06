@@ -48,6 +48,10 @@ jobs:
         uses: actions/configure-pages@v6.0.0
         with:
           enablement: true
+        # Non-blocking: on a fresh fork the Pages site may still need to be enabled
+        # once manually under Settings > Pages > Build and deployment > Source:
+        # "GitHub Actions". Keeping this step non-blocking allows the Jekyll build
+        # and artifact upload to run and be verified in CI before that one-time setup.
         continue-on-error: true
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
