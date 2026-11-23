@@ -23,7 +23,7 @@ author:
   name             : "Junteng Liu"
   pronouns         :
   bio              : "First-year PhD candidate at HKUST NLP Group"
-  location         : ""
+  location         :
   employer         : "HKUST NLP Group"
   uri              :
   email            : "jliugi@connect.ust.hk"
@@ -142,9 +142,9 @@ social:
   type                   : Person
   name                   : "Junteng Liu"
   links:
-    - https://github.com/Vicent0205
-    - https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
-    - https://twitter.com/junteng88716710
+    - "https://github.com/Vicent0205"
+    - "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+    - "https://twitter.com/junteng88716710"
 
 
 # Analytics
